@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="feature-name;scenario-name" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Shweta_Tools/Attempt3/features/Gmail.feature">
+            </property>
+        </properties>
+        <testcase name="Given I navigate to &quot;Gmail.com&quot;" classname="feature-name;scenario-name" time="5.19537946">
+        </testcase>
+        <testcase name="Then I enter username and password" classname="feature-name;scenario-name" time="0.001967358">
+        </testcase>
+        <testcase name="And I verify if i have signed in correctly" classname="feature-name;scenario-name" time="0.000285013">
+        </testcase>
+        <testcase name="And I compose an email" classname="feature-name;scenario-name" time="0.002483198">
+        </testcase>
+        <testcase name="Then I verify if email has been received" classname="feature-name;scenario-name" time="0.005952848">
+        </testcase>
+    </testsuite>
+</testsuites>

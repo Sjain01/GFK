@@ -1,0 +1,14 @@
+{
+  "name": "attempt3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "selenium-cucumber-js": "^1.6.1"
+  }
+}
