@@ -20,6 +20,7 @@ module.exports = function() {
     }).build();
 
     driver.manage().window().maximize();
+    driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 
     return driver;
 };

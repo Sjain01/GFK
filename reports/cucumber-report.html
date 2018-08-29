@@ -271,7 +271,7 @@ pre {
 
     <div class="container">
 
-      <div class="generated-on">Mon Aug 27 2018 20:15:42 GMT+0200 (W. Europe Daylight Time)</div>
+      <div class="generated-on">Wed Aug 29 2018 18:54:47 GMT+0200 (W. Europe Daylight Time)</div>
 
       <div class="row">
         <div class="chart col-lg-6 col-md-6" id="piechart_features"></div>
@@ -292,7 +292,7 @@ pre {
                     <a data-toggle="collapse" href="#collapseFeatureattempt30">
                         <i class="glyphicon glyphicon-chevron-right"></i>
                         <i class="glyphicon glyphicon-chevron-down"></i>
-                        <b>Feature:</b>Feature name
+                        <b>Feature:</b>Send and Receive a Gmail Email
                         <span class="label-container">
               <span class="label label-success" title="1 Scenarios Passed">1</span>
               
@@ -306,7 +306,7 @@ pre {
             </div>
             <div id="collapseFeatureattempt30" class="panel-collapse collapse">
                 <div class="panel-body">
-                    <div class="description">   Feature Description</div>
+                    <div class="description">   As an internet user I want to send and receieve Gmail email</div>
                     
                     <div class="panel panel-default">
                         <div class="panel-heading">
@@ -319,11 +319,11 @@ pre {
                                         <div style="padding-right: 30px">
                                             <i class="glyphicon glyphicon-chevron-right"></i>
                                             <i class="glyphicon glyphicon-chevron-down"></i>
-                                            <b>Scenario:</b>Scenario name
+                                            <b>Scenario:</b>Send a gmail email and verify if it has been received successfully
                                         </div>
                                         <div>
                             <span class="label-container">
-                              <span class="label label-success" title="5 Steps Passed">5</span>
+                              <span class="label label-success" title="6 Steps Passed">6</span>
                               
                               
                               
@@ -352,7 +352,7 @@ pre {
                           <span> I navigate to &quot;Gmail.com&quot;</span>
                           
                               <span class="step-duration">
-                               86589m 39s 460ms
+                               82629m 20s 463ms
                               </span>
                             
                          
@@ -386,7 +386,7 @@ pre {
                           <span> I enter username and password</span>
                           
                               <span class="step-duration">
-                               32m 47s 358ms
+                               22m 35s 946ms
                               </span>
                             
                          
@@ -420,7 +420,7 @@ pre {
                           <span> I verify if i have signed in correctly</span>
                           
                               <span class="step-duration">
-                               4m 45s 13ms
+                               4m 32s 213ms
                               </span>
                             
                          
@@ -454,7 +454,41 @@ pre {
                           <span> I compose an email</span>
                           
                               <span class="step-duration">
-                               41m 23s 198ms
+                               17m 52s 213ms
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                    
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                            	</div>
+                            </p>
+                            
+                            
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">And </span>
+                          <span> I verify email has been sent successfully</span>
+                          
+                              <span class="step-duration">
+                               14m 14s 186ms
                               </span>
                             
                          
@@ -488,7 +522,7 @@ pre {
                           <span> I verify if email has been received</span>
                           
                               <span class="step-duration">
-                               99m 12s 848ms
+                               22m 26s 985ms
                               </span>
                             
                          
@@ -510,62 +544,6 @@ pre {
                             
                             
                                 
-                                <p class="scenario-container">
-                                <div class="row steps">
-                                    
-                                    
-                                    <span class="label label-danger" title="Failed"><i class="glyphicon glyphicon-remove"></i></span>
-                                    
-                                    
-                                    <span class="text">
-                        <span class="keyword highlight">After </span>
-                          <span> </span>
-                          
-                              <span class="step-duration">
-                               887879m 37s 154ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                                    
-                                    
-
-                                    
-                                    <a href="#error0_05" data-toggle="collapse">+ Show Error</a>
-                                    <div id="error0_05" class="collapse">
-                                        <pre class=info>NoSuchElementError: no such element: Unable to locate element: {"method":"xpath","selector":"//tr[contains(text(),"Test Email")]"}
-  (Session info: chrome=68.0.3440.106)
-  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64)
-    at Object.checkLegacyResponse (C:\Shweta_Tools\Attempt3\node_modules\selenium-webdriver\lib\error.js:529:15)
-    at parseHttpResponse (C:\Shweta_Tools\Attempt3\node_modules\selenium-webdriver\lib\http.js:509:13)
-    at doSend.then.response (C:\Shweta_Tools\Attempt3\node_modules\selenium-webdriver\lib\http.js:441:30)
-    at (anonymous)
-    at process._tickCallback (internal/process/next_tick.js:160:7)
-From: Task: WebDriver.findElement(By(xpath, //tr[contains(text(),"Test Email")]))
-    at thenableWebDriverProxy.schedule (C:\Shweta_Tools\Attempt3\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
-    at thenableWebDriverProxy.findElement (C:\Shweta_Tools\Attempt3\node_modules\selenium-webdriver\lib\webdriver.js:1014:17)
-    at Object.verifyEmail (C:\Shweta_Tools\Attempt3\page-objects\gmail-login.js:85:16)
-    at createWorld.(anonymous) (C:\Shweta_Tools\Attempt3\step-definitions\gmail-page.js:34:25)
-    at process._tickCallback (internal/process/next_tick.js:150:11)
-From: Task: WebElement.click()
-    at thenableWebDriverProxy.schedule (C:\Shweta_Tools\Attempt3\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
-    at WebElementPromise.schedule_ (C:\Shweta_Tools\Attempt3\node_modules\selenium-webdriver\lib\webdriver.js:2015:25)
-    at WebElementPromise.click (C:\Shweta_Tools\Attempt3\node_modules\selenium-webdriver\lib\webdriver.js:2096:17)
-    at Object.verifyEmail (C:\Shweta_Tools\Attempt3\page-objects\gmail-login.js:85:77)
-    at createWorld.(anonymous) (C:\Shweta_Tools\Attempt3\step-definitions\gmail-page.js:34:25)</pre>
-                                    </div>
-                                    
-
-                                    
-
-                                    
-
-                                    
-                            	</div>
-                            </p>
-                            
                             
                         </div>
                     </div>

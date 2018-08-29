@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="feature-name;scenario-name" tests="5" failures="0" skipped="0">
+    <testsuite name="send-and-receive-a-gmail-email;send-a-gmail-email-and-verify-if-it-has-been-received-successfully" tests="6" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/Shweta_Tools/Attempt3/features/Gmail.feature">
+            <property name="URI" value="C:/Shweta_Tools/GFK_Test_Assignment/features/Gmail.feature">
             </property>
         </properties>
-        <testcase name="Given I navigate to &quot;Gmail.com&quot;" classname="feature-name;scenario-name" time="5.19537946">
+        <testcase name="Given I navigate to &quot;Gmail.com&quot;" classname="send-and-receive-a-gmail-email;send-a-gmail-email-and-verify-if-it-has-been-received-successfully" time="4.957760463">
         </testcase>
-        <testcase name="Then I enter username and password" classname="feature-name;scenario-name" time="0.001967358">
+        <testcase name="Then I enter username and password" classname="send-and-receive-a-gmail-email;send-a-gmail-email-and-verify-if-it-has-been-received-successfully" time="0.001355946">
         </testcase>
-        <testcase name="And I verify if i have signed in correctly" classname="feature-name;scenario-name" time="0.000285013">
+        <testcase name="And I verify if i have signed in correctly" classname="send-and-receive-a-gmail-email;send-a-gmail-email-and-verify-if-it-has-been-received-successfully" time="0.000272213">
         </testcase>
-        <testcase name="And I compose an email" classname="feature-name;scenario-name" time="0.002483198">
+        <testcase name="And I compose an email" classname="send-and-receive-a-gmail-email;send-a-gmail-email-and-verify-if-it-has-been-received-successfully" time="0.001072213">
         </testcase>
-        <testcase name="Then I verify if email has been received" classname="feature-name;scenario-name" time="0.005952848">
+        <testcase name="And I verify email has been sent successfully" classname="send-and-receive-a-gmail-email;send-a-gmail-email-and-verify-if-it-has-been-received-successfully" time="0.000854186">
+        </testcase>
+        <testcase name="Then I verify if email has been received" classname="send-and-receive-a-gmail-email;send-a-gmail-email-and-verify-if-it-has-been-received-successfully" time="0.001346985">
         </testcase>
     </testsuite>
 </testsuites>

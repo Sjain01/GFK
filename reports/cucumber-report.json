@@ -1,12 +1,12 @@
 [
   {
-    "description": "   Feature Description",
+    "description": "   As an internet user I want to send and receieve Gmail email",
     "elements": [
       {
-        "id": "feature-name;scenario-name",
+        "id": "send-and-receive-a-gmail-email;send-a-gmail-email-and-verify-if-it-has-been-received-successfully",
         "keyword": "Scenario",
         "line": 5,
-        "name": "Scenario name",
+        "name": "Send a gmail email and verify if it has been received successfully",
         "steps": [
           {
             "arguments": [],
@@ -14,11 +14,11 @@
             "name": "I navigate to \"Gmail.com\"",
             "result": {
               "status": "passed",
-              "duration": 5195379460
+              "duration": 4957760463
             },
             "line": 6,
             "match": {
-              "location": "C:\\Shweta_Tools\\Attempt3\\step-definitions\\gmail-page.js:6"
+              "location": "C:\\Shweta_Tools\\GFK_Test_Assignment\\step-definitions\\gmail-page.js:6"
             }
           },
           {
@@ -27,11 +27,11 @@
             "name": "I enter username and password",
             "result": {
               "status": "passed",
-              "duration": 1967358
+              "duration": 1355946
             },
             "line": 7,
             "match": {
-              "location": "C:\\Shweta_Tools\\Attempt3\\step-definitions\\gmail-page.js:11"
+              "location": "C:\\Shweta_Tools\\GFK_Test_Assignment\\step-definitions\\gmail-page.js:11"
             }
           },
           {
@@ -40,11 +40,11 @@
             "name": "I verify if i have signed in correctly",
             "result": {
               "status": "passed",
-              "duration": 285013
+              "duration": 272213
             },
             "line": 8,
             "match": {
-              "location": "C:\\Shweta_Tools\\Attempt3\\step-definitions\\gmail-page.js:18"
+              "location": "C:\\Shweta_Tools\\GFK_Test_Assignment\\step-definitions\\gmail-page.js:18"
             }
           },
           {
@@ -53,11 +53,24 @@
             "name": "I compose an email",
             "result": {
               "status": "passed",
-              "duration": 2483198
+              "duration": 1072213
             },
             "line": 9,
             "match": {
-              "location": "C:\\Shweta_Tools\\Attempt3\\step-definitions\\gmail-page.js:25"
+              "location": "C:\\Shweta_Tools\\GFK_Test_Assignment\\step-definitions\\gmail-page.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I verify email has been sent successfully",
+            "result": {
+              "status": "passed",
+              "duration": 854186
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Shweta_Tools\\GFK_Test_Assignment\\step-definitions\\gmail-page.js:31"
             }
           },
           {
@@ -66,24 +79,23 @@
             "name": "I verify if email has been received",
             "result": {
               "status": "passed",
-              "duration": 5952848
+              "duration": 1346985
             },
-            "line": 10,
+            "line": 11,
             "match": {
-              "location": "C:\\Shweta_Tools\\Attempt3\\step-definitions\\gmail-page.js:31"
+              "location": "C:\\Shweta_Tools\\GFK_Test_Assignment\\step-definitions\\gmail-page.js:36"
             }
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
-              "status": "failed",
-              "duration": 53272777154,
-              "error_message": "NoSuchElementError: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//tr[contains(text(),\"Test Email\")]\"}\n  (Session info: chrome=68.0.3440.106)\n  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64)\n    at Object.checkLegacyResponse (C:\\Shweta_Tools\\Attempt3\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (C:\\Shweta_Tools\\Attempt3\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at doSend.then.response (C:\\Shweta_Tools\\Attempt3\\node_modules\\selenium-webdriver\\lib\\http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)\nFrom: Task: WebDriver.findElement(By(xpath, //tr[contains(text(),\"Test Email\")]))\n    at thenableWebDriverProxy.schedule (C:\\Shweta_Tools\\Attempt3\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at thenableWebDriverProxy.findElement (C:\\Shweta_Tools\\Attempt3\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1014:17)\n    at Object.verifyEmail (C:\\Shweta_Tools\\Attempt3\\page-objects\\gmail-login.js:85:16)\n    at createWorld.<anonymous> (C:\\Shweta_Tools\\Attempt3\\step-definitions\\gmail-page.js:34:25)\n    at process._tickCallback (internal/process/next_tick.js:150:11)\nFrom: Task: WebElement.click()\n    at thenableWebDriverProxy.schedule (C:\\Shweta_Tools\\Attempt3\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at WebElementPromise.schedule_ (C:\\Shweta_Tools\\Attempt3\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2015:25)\n    at WebElementPromise.click (C:\\Shweta_Tools\\Attempt3\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2096:17)\n    at Object.verifyEmail (C:\\Shweta_Tools\\Attempt3\\page-objects\\gmail-login.js:85:77)\n    at createWorld.<anonymous> (C:\\Shweta_Tools\\Attempt3\\step-definitions\\gmail-page.js:34:25)"
+              "status": "passed",
+              "duration": 48756629114
             },
             "hidden": true,
             "match": {
-              "location": "C:\\Shweta_Tools\\Attempt3\\node_modules\\selenium-cucumber-js\\runtime\\world.js:221"
+              "location": "C:\\Shweta_Tools\\GFK_Test_Assignment\\node_modules\\selenium-cucumber-js\\runtime\\world.js:221"
             }
           }
         ],
@@ -91,11 +103,11 @@
         "type": "scenario"
       }
     ],
-    "id": "feature-name",
+    "id": "send-and-receive-a-gmail-email",
     "keyword": "Feature",
     "line": 1,
-    "name": "Feature name",
+    "name": "Send and Receive a Gmail Email",
     "tags": [],
-    "uri": "C:/Shweta_Tools/Attempt3/features/Gmail.feature"
+    "uri": "C:/Shweta_Tools/GFK_Test_Assignment/features/Gmail.feature"
   }
 ]

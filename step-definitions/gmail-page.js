@@ -28,10 +28,15 @@ module.exports = function () {
 
     });
 
+    this.Then(/^I verify email has been sent successfully$/,() => {
+        page.gmailLogin.verifyEmailSentSuccessfully();
+
+    });
+
     this.Then(/^I verify if email has been received$/, function () {
 
         // Verify an email
-        page.gmailLogin.verifyEmail();
+        page.gmailLogin.verifyEmailReceivedSuccessfully();
         
 
     })
